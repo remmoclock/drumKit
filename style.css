@@ -1,0 +1,29 @@
+body {
+  background-image: url("drumkit.jpg");
+}
+.drumkit {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;$
+}
+.drum {
+  padding: 10px 30px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: darkred;
+}
+
+@keyframes drum-animation {
+  from {
+    background: darkred;
+  }
+  to {
+    background: #fbf2c0;
+  }
+}
+
